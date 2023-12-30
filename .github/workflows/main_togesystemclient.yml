@@ -58,4 +58,4 @@ jobs:
           app-name: 'togesystemclient'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CC5157785F7A401FA39519492EAD71A9 }}
-          package: ./dist/jk-ui
+          package: .
